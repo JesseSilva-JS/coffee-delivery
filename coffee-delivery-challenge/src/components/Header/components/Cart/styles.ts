@@ -7,7 +7,7 @@ export const CartComponent = styled.div`
   justify-content: center;
   border-radius: 6px;
   position: relative;
-
+  cursor: pointer;
   span {
     background: ${(props) => props.theme['yellow-dark']};
     color: ${(props) => props.theme.white};
