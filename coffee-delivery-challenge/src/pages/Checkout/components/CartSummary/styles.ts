@@ -39,14 +39,17 @@ export const SummaryCartForm = styled.div`
       }
     }
 
-    button {
+    a {
       background: ${(props) => props.theme['yellow-dark']};
-      color: ${(props) => props.theme.white};
       width: 100%;
       border: none;
       border-radius: 6px;
       padding: 0.75rem 0;
       margin-top: 1.5rem;
+      color: ${(props) => props.theme.white};
+      text-decoration: none;
+      display: block;
+      text-align: center;
     }
   }
 `

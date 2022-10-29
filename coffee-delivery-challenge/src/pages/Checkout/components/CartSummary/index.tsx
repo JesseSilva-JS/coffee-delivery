@@ -1,5 +1,6 @@
 import { SummaryCartForm } from './styles'
 import coffeeImage1 from '../../../../assets/img/checkout/Coffee-1.png'
+import { NavLink } from 'react-router-dom'
 export function SummaryCart() {
   return (
     <>
@@ -92,7 +93,7 @@ export function SummaryCart() {
             </table>
           </div>
 
-          <button>CONFIRMAR PEDIDO</button>
+          <NavLink to={'/orderplaced'}>CONFIRMAR PEDIDO</NavLink>
         </section>
       </SummaryCartForm>
     </>
